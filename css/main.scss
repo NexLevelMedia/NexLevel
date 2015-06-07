@@ -109,7 +109,7 @@ header .intro-text .intro-heading {
 }
 
 #logo {
-	background-image: url('/images/white_logo_website.png');
+	background-image: url('{{ site.baseurl }}/images/white_logo_website.png');
 }
 
 /* Navbar changes */
