@@ -3,7 +3,7 @@ title: Nex Level Media Ltd.
 email: contact@nexlevel.media
 description: > # this means to ignore newlines until "baseurl:"
  Nex Level Media Ltd. Maximising income opportunities for artists, introducing advertisers to talent in the South East Asian market.
-baseurl: "/NexLevel" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.nexlevel.media" # the base hostname & protocol for your site
 
 
