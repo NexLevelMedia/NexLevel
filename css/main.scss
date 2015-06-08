@@ -61,6 +61,11 @@ body {
 	font-style: normal;
 }
 
+a {
+	color: $cognopiayellow;
+	text-decoration: underline;
+}
+
 #topbuffer {
 	background-color: black;
 	height: 155px;
@@ -77,7 +82,7 @@ text-align: center;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 1250px;
+    height: 950px;
 }
 
 /* Header */
