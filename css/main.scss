@@ -24,7 +24,8 @@ $cognopiayellow: #fecf2a;
 
 // Width of the content area
 $content-width:    800px;
-
+$navbar-width:	   991px;
+$inner-width:	   768px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
@@ -113,22 +114,19 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-#logo {
-	background-image: url('{{ site.baseurl }}/images/white_logo_website.png');
-}
-
 /* Navbar changes */
 #shrink.navbar.navbar-fixed-top.navbar-default {
 	background-color: black;
 	border-color: black;
 	text-transform: uppercase;
 	font-size: 18px;
-	height: 155px;
+	border-bottom: 1px solid $cognopiayellow;
 }
 
 #bs-example-navbar-collapse-1 > ul > li > a {
 	color: white;
 	font-weight: 100;
+	text-decoration: none;
 }
 
 #bs-example-navbar-collapse-1 > ul {
@@ -136,9 +134,40 @@ header .intro-text .intro-heading {
 	margin-top: 110px;
 }
 
+@media screen and (max-width: $navbar-width) {
+  	#bs-example-navbar-collapse-1 > ul {
+	margin-right: 0px;
+	margin-top: 65px;
+	}
+  }
+
+@media screen and (max-width: $inner-width) {
+	#shrink.navbar.navbar-fixed-top.navbar-default {
+		border: none;
+	}
+	#bs-example-navbar-collapse-1 > ul {
+	margin-top: 110px;
+	}	
+}
+
 #bs-example-navbar-collapse-1 > ul > li > a:hover {
 	color: $cognopiayellow;
 }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-top: none;
+	background-color: black;
+	#bs-example-navbar-collapse-1 > ul {
+		margin-top: 110;
+	}
+}
+
+#shrink.navbar.navbar-fixed-top.navbar-default.navbar-shrink {
+        padding: 3px 0;
+        background-color: black;
+        border-bottom: 1px solid $cognopiayellow;
+        font-size: 14px;
+    }
 
 #top-content {
 	margin-top: 150px;
