@@ -10,4 +10,4 @@ For established artists this provides a unique opportunity to leverage their pra
 
 For new artists the platform enables their content to be viewed by a wider audience, also giving valuable fan feeback on performance quality and song selections. The biggest opportunity is the chance to be discovered by a major record label, taking your band to the big-time.
 
-If you're interested in learning more, please contact our dedicated [support team](contact@nexlevel.media) for more information.
+If you're interested in learning more, please contact our dedicated support team (<contact@nexlevel.media>) for more information.

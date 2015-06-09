@@ -12,7 +12,7 @@ For established artists this provides a unique opportunity to leverage their pra
 
 For new artists the platform enables their content to be viewed by a wider audience, also giving valuable fan feeback on performance quality and song selections. The biggest opportunity is the chance to be discovered by a major record label, taking your band to the big-time.
 
-If you're interested in learning more, please contact our dedicated [support team](contact@nexlevel.media) for more information.
+If you're interested in learning more, please contact our dedicated support team (<contact@nexlevel.media>) for more information.
 
-**Advertisers** can benefit from the relationships Nex Level Media has with the artists and media platforms across South East Asia. Whether you're looking to sponsor a particular artist to make the most of their brand and following, or whether you need a braoder marketing strategy for South East Asia you should [contact us](contact@nexlevel.media) today to discuss the opportunities availble.
+**Advertisers** can benefit from the relationships Nex Level Media has with the artists and media platforms across South East Asia. Whether you're looking to sponsor a particular artist to make the most of their brand and following, or whether you need a braoder marketing strategy for South East Asia you should contact us (<contact@nexlevel.media>) today to discuss the opportunities availble.
 
