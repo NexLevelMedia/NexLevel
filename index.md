@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Nex Level Media Ltd.
 permalink: /
 ---

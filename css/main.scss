@@ -17,7 +17,7 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color:       #333333;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $cognopiayellow: #fecf2a;
@@ -83,7 +83,32 @@ text-align: center;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 950px;
+    height: 450px;
+}
+
+#features {
+	background-color: $grey-color;
+	color: white;
+	height: auto;
+}
+
+/* styling for the features panels */
+#feature > div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	background-color: black;
+	text-align: center;
+}
+
+#feature > div > div.panel-heading {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+#feature > div > div.panel-body > p > a {
+	color: $cognopiayellow;
+	text-decoration: none;
 }
 
 /* Header */
