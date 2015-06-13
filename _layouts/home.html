@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+<section id="topbuffer">
+  {% include navbar.html %}
+</section>
+<section id="homebody">
+
+    <div class="container">
+        <header>
+    		<h1 class="post-title">{{ page.title }}</h1>
+  		</header>
+
+  		<article class="post-content">
+   		 {{ content }}
+  		</article>
+  	</div>
+</section>
+<section id="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1" id="feature">
+				<div class="panel-panel-default">
+				<div class="panel-heading">Advertisers</div>
+				<div class="panel-body">
+					<p>Do you want to reach an upwardly mobile, increasingly affluent, young audience in the South East Asian region? We can help.</p>
+					<p><a class="page-link" href="{{ site.baseurl }}/advertisers/">How we help brands &#8594;</a></p>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-3" id="feature">
+				<div class="panel-panel-default">
+					<div class="panel-heading">Artists</div>
+					<div class="panel-body">
+						<p>Earn more money from your work. Nex Level Media will bring you new audiences, revenue streams and sponsorship opportunities.</p>
+						<p><a class="page-link" href="{{ site.baseurl }}/artists/">How we help Artists &#8594; </a></p>
+					 </div>
+				</div>
+			</div>
+			<div class="col-md-3" id="feature">
+				<div class="panel-panel-default">
+					<div class="panel-heading">BandViews</div>
+					<div class="panel-body">
+						<p>Make money whilst you practice your next big hit. Gain new fans and increase their engagement with BandViews.</p>
+						<p><a class="page-link" href="{{ site.baseurl }}/bandviews/">Learn more &#8594;</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
