@@ -86,19 +86,20 @@ text-align: center;
     height: auto;
 }
 
+
+/* styling for the features panels */
 #features {
 	background-color: $grey-color;
 	color: white;
 	height: auto;
+	text-align: center;
 }
 
-/* styling for the features panels */
 #feature > div {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 25px;
 	background-color: black;
-	text-align: center;
 }
 
 #feature > div > div.panel-heading {
@@ -111,6 +112,39 @@ text-align: center;
 	text-decoration: none;
 }
 
+/* Artists panels */
+#artist-section {
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+#artist > div {
+	background-color: $grey-color;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+
+#artist > div > div.panel-heading {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+#artist > div > div.panel-body > p > a {
+	color: $cognopiayellow;
+	text-decoration: none;
+}
+
+#artist > div > div.panel-heading > span.glyphicon {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#artist-section > div > div:nth-child(3) > h2 > a {
+	text-decoration: none;
+}
 /* Header */
 
 header {
