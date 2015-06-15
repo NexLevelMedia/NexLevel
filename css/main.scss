@@ -228,6 +228,24 @@ header .intro-text .intro-heading {
         font-size: 14px;
     }
 
-#top-content {
-	margin-top: 150px;
+/* Button Changes */
+
+#art-btn {
+	padding-bottom: 15px;
+	
+	.btn{
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	}	
+
+	.btn-lg {
+		font-size: 26px;
+	}
 }
+
+#art-btn > a:hover {
+	border: 2px solid $cognopiayellow;
+	color: $cognopiayellow;
+	}
