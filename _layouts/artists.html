@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+<section id="topbuffer">
+  {% include navbar.html %}
+</section>
+<section id="homebody">
+
+    <div class="container">
+        <header>
+    		<h1 class="post-title">{{ page.title }}</h1>
+  		</header>
+
+  		<article class="post-content">
+   		 {{ content }}
+  		</article>
+  	</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2" id="art-btn">
+          <a class="btn btn-lg btn-default" href="{{ site.baseurl }}/artists/" role="button">Established Bands</a>
+        </div>
+        <div class="col-md-4" id="art-btn">
+          <a class="btn btn-lg btn-default" href="{{ site.baseurl }}/artists/" role="button">Unsigned Bands</a>
+        </div>
+      </div>
+    </div>
+</section>
+{% include artists.html %}
+{% include artfeatures.html %}
+{% include artsponsor.html %}
+{% include artfeedback.html %}
+{% include bandviews.html %}
+{% include footer.html %}
+
+  </body>
+
+</html>
