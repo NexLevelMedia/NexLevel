@@ -7,7 +7,7 @@
 
 // Our variables
 $base-font-family: Montserrat, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -60,6 +60,17 @@ $on-laptop:        800px;
 body {
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
+}
+
+.post-title {
+	font-size: 56px;
+}
+.post-content {
+	font-size: 26px;
+}
+
+#established-acts, #new-acts{
+	color: $cognopiayellow;
 }
 
 a {

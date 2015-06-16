@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Advertisers
+layout: advertisers
+title: Ready for your next big sponsorship opportunity?
 permalink: /advertisers/
 ---
 
