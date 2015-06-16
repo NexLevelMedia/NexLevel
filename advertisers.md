@@ -4,4 +4,4 @@ title: Ready for your next big sponsorship opportunity?
 permalink: /advertisers/
 ---
 
-**Advertisers** can benefit from the relationships Nex Level Media has with the artists and media platforms across South East Asia. Whether you're looking to sponsor a particular artist to make the most of their brand and following, or whether you need a braoder marketing strategy for South East Asia you should contact us (<contact@nexlevel.media>) today to discuss the opportunities availble.
+With over 1 million FaceBook fans following our artists in the South East Asian region, Nex Level Media can really boost your brand profile. Whether you're looking to sponsor an artist, gain access to their social following, or takeover a whole music video whilst promoting your products, we can help.
