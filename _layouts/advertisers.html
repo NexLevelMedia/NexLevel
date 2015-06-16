@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+<section id="topbuffer">
+  {% include navbar.html %}
+</section>
+<section id="homebody">
+
+    <div class="container">
+        <header>
+    		<h1 class="post-title">{{ page.title }}</h1>
+  		</header>
+
+  		<article class="post-content">
+   		 {{ content }}
+  		</article>
+  	</div>
+</section>
+{% include advertisers.html %}
+{% include footer.html %}
+
+  </body>
+
+</html>
