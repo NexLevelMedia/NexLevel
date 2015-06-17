@@ -143,19 +143,47 @@ text-align: center;
 	font-weight: 600;
 }
 
+#artist > div > div.panel-heading > a {
+	color: white;
+	text-decoration: none;
+}
+
+#artist > div > div.panel-heading > a:hover {
+	color: $cognopiayellow;
+}
+
+
 #artist > div > div.panel-body > p > a {
 	color: $cognopiayellow;
 	text-decoration: none;
 }
 
-#artist > div > div.panel-heading > span.glyphicon {
+
+#artist-section > div > div > h2 > a {
+	text-decoration: none;
+}
+
+/* Bandviews Panels */
+#bv > div > div.panel-heading {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+#bv > div > div.panel-heading > a {
+	color: white;
+	text-decoration: none;
+}
+
+#bv > div > div.panel-heading > a:hover {
+	color: $cognopiayellow;
+}
+
+
+div.panel-heading > span.glyphicon {
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-#artist-section > div > div:nth-child(3) > h2 > a {
-	text-decoration: none;
-}
 /* Header */
 
 header {
