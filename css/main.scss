@@ -78,6 +78,10 @@ a {
 	text-decoration: underline;
 }
 
+a:hover {
+	color: $cognopiayellow;
+}
+
 #topbuffer {
 	background-color: black;
 	height: 155px;
